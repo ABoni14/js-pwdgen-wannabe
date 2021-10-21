@@ -7,8 +7,7 @@ Riportiamo le informazioni riportate
 const nameUser = prompt("Inserisci il tuo nome");
 const lastNameUser = prompt("Inserisci il tuo cognome");
 const colorPreferUser = prompt("Inserisci il tuo colore preferito");
-const randomNumber = parseInt(prompt ("Inserisci un numero casuale"));
-const passwordGenerate = nameUser + lastNameUser + colorPreferUser + randomNumber;
+const passwordGenerate = nameUser + lastNameUser + colorPreferUser + 21;
 
 
 
@@ -21,7 +20,6 @@ document.getElementById("passwordUser").innerHTML =
 console.log(nameUser);
 console.log(lastNameUser);
 console.log(colorPreferUser);
-console.log(randomNumber);
 console.log(passwordGenerate);
 
 
